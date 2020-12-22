@@ -101,7 +101,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias c="clear"
 alias ll="ls -lah"
-alias scanditunnel="ssh -f -N -L 0.0.0.0:63516:10.10.2.195:63516 effectsoft@vpn1.scandi.se"
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 export EDITOR="nano"
